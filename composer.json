@@ -1,11 +1,11 @@
 {
-    "name": "naoray/blueprint-nova-addon",
+    "name": "razorsheep/blueprint-nova-addon",
     "description": "",
     "keywords": [
         "naoray",
         "blueprint-nova-addon"
     ],
-    "homepage": "https://github.com/naoray/blueprint-nova-addon",
+    "homepage": "https://github.com/Razorsheep/blueprint-nova-addon",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -16,6 +16,7 @@
         }
     ],
     "require": {
+        "php": ">=8.0",
         "illuminate/pipeline": "^6.0 || ^7.0 || ^8.0 || ^9.0 || ^10.0",
         "illuminate/support": "^6.0 || ^7.0 || ^8.0 || ^9.0 || ^10.0",
         "laravel-shift/blueprint": "^1.18 || ^2.0"
